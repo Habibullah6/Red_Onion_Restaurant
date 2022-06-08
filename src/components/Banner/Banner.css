@@ -1,0 +1,47 @@
+figcaption{
+    position: absolute;
+    top: 45%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+figcaption p {
+    font-size: 2rem;
+    color: crimson;
+}
+
+
+label{
+    position: relative;
+    
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    padding: 0 15px;
+    border: none;
+}
+
+
+.search-button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: crimson;
+    color: white;
+    padding: 0 15px;
+    border: none;
+}
+
+
+@media only screen and (max-width: 768px){
+	/*Small smartphones [325px -> 767px]*/
+    figcaption p{
+         font-size: 15px;
+         color: crimson;
+    }
+    input{
+        width: 100%;
+    }
+}
